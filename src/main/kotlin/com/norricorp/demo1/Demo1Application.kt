@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class Demo1Application
 
 fun main(args: Array<String>) {
-	runApplication<Demo1Application>(*args) {  }
+	println("NORRIS: into main and runApplication")
+	runApplication<Demo1Application>(*args) 
 }
